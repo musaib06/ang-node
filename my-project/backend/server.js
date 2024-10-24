@@ -12,7 +12,7 @@ app.get('/api', (req, res) => {
 
 // Catch-all route to serve the Angular app
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../dist/angular-app/index.html'));
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 
 // Start the server
